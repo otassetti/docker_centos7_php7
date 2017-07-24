@@ -12,7 +12,7 @@ RUN yum install -y php71 php71-php-cli php71-php-common php71-php-fpm php71-php-
 php71-php-curl php71-php-gd php71-php-phar php71-php-zip php71-php-pdo php71-php-xml \
 php71-php-mbstring php71-php-mcrypt php71-php-opcache php71-php-pear \
 php71-php-pecl-memcached php71-php-pecl-zip php71-php-soap php71-php-phpiredis php71-php-pecl-redis \
-php71-php-pecl-imagick php71-php-yaml
+php71-php-pecl-imagick php71-php-yaml php71-php-bcmath
 
 RUN ln -s /usr/bin/php71 /usr/bin/php
 
